@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FULL PAGES</title>
+	<meta charset="utf-8">
+	<!--Paso 1: Enlazar archivos-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.extensions.min.js"></script>
+		
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.css">
+</head>
+<body>
+
+	<!--Paso 2: Estructura HTML-->
+	<div id="contenedor">
+
+		<div class="section">
+			<img src="https://imagenesdepaisajes.net/wp-content/uploads/2016/04/atardecer-en-una-playa-tropical.jpg">
+		</div>
+		<div class="section">
+			<img src="https://4.bp.blogspot.com/-IND6szVhDTs/UbKsOtcD3xI/AAAAAAABzwI/L7nxkTkWPmE/s1600/imagenes-para-fondo-de-pantalla-de-paisajes-playas-monta%C3%B1as-desiertos-lagos-y-rios+(1).jpg">
+		</div>
+		<div class="section">
+			<img src="https://hoteleus.com/blog/wp-content/uploads/2017/12/hoteleus-sancristobaldelascasas.jpg">
+		</div>
+		
+
+	</div>
+
+
+</body>
+<!--Paso 3: Seleccionar el elemento HTML desde JQuery-->
+<script>
+	new fullpage('#contenedor', {
+	//options here
+	autoScrolling:true
+	
+});
+
+</script>
+</html>
